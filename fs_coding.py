@@ -45,7 +45,7 @@ def replace_sigmoid_with_fs():
 
 
 def replace_relu_with_fs():
-        '''
+    '''
     Call this function to replace the ReLU functions in the tensorflow library by an 
     FS-neuron which approximates a ReLU function. 
     '''
