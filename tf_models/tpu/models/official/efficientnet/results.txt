@@ -1,0 +1,37 @@
+without mult, whole dataset:
+
+INFO:tensorflow:Saving dict for global step 0: global_step = 0, loss = 1.9304676, top_1_accuracy = 0.83862
+I1225 04:10:28.334488 140351174571840 estimator.py:2039] Saving dict for global step 0: global_step = 0, loss = 1.9304676, top_1_accuracy = 0.83862
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 0: /calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug/efficientnet-b7
+I1225 04:10:31.042903 140351174571840 estimator.py:2099] Saving 'checkpoint_path' summary for global step 0: /calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug/efficientnet-b7
+I1225 04:10:31.043653 140351174571840 main.py:735] Eval results: {'loss': 1.9304676, 'top_1_accuracy': 0.83862, 'global_step': 0}. Elapsed seconds: 46345
+
+with mult, whole dataset:
+
+INFO:tensorflow:Evaluation [5000/50000]
+I1224 04:41:29.063418 139811872253760 evaluation.py:167] Evaluation [5000/50000]
+INFO:tensorflow:Evaluation [10000/50000]
+I1224 10:20:24.759102 139811872253760 evaluation.py:167] Evaluation [10000/50000]
+INFO:tensorflow:Evaluation [15000/50000]
+I1224 15:59:20.606985 139811872253760 evaluation.py:167] Evaluation [15000/50000]
+INFO:tensorflow:Evaluation [20000/50000]
+I1224 21:38:19.367691 139811872253760 evaluation.py:167] Evaluation [20000/50000]
+INFO:tensorflow:Evaluation [25000/50000]
+I1225 03:17:17.122824 139811872253760 evaluation.py:167] Evaluation [25000/50000]
+INFO:tensorflow:Evaluation [30000/50000]
+I1225 08:56:12.901664 139811872253760 evaluation.py:167] Evaluation [30000/50000]
+INFO:tensorflow:Evaluation [35000/50000]
+I1225 14:35:07.870053 139811872253760 evaluation.py:167] Evaluation [35000/50000]
+INFO:tensorflow:Evaluation [40000/50000]
+I1225 20:14:02.812161 139811872253760 evaluation.py:167] Evaluation [40000/50000]
+INFO:tensorflow:Evaluation [45000/50000]
+I1226 01:52:57.615223 139811872253760 evaluation.py:167] Evaluation [45000/50000]
+INFO:tensorflow:Evaluation [50000/50000]
+I1226 07:31:51.860377 139811872253760 evaluation.py:167] Evaluation [50000/50000]
+INFO:tensorflow:Finished evaluation at 2019-12-26-07:31:52
+I1226 07:31:52.773263 139811872253760 evaluation.py:275] Finished evaluation at 2019-12-26-07:31:52
+INFO:tensorflow:Saving dict for global step 0: global_step = 0, loss = 2.1992753, top_1_accuracy = 0.80966
+I1226 07:31:52.773594 139811872253760 estimator.py:2039] Saving dict for global step 0: global_step = 0, loss = 2.1992753, top_1_accuracy = 0.80966
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 0: /calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug/efficientnet-b7
+I1226 07:31:59.856261 139811872253760 estimator.py:2099] Saving 'checkpoint_path' summary for global step 0: /calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug/efficientnet-b7
+I1226 07:31:59.857073 139811872253760 main.py:735] Eval results: {'loss': 2.1992753, 'top_1_accuracy': 0.80966, 'global_step': 0}. Elapsed seconds: 203485
