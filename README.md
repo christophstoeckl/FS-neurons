@@ -80,4 +80,10 @@ Expected output:
 Expected time:
 
 ### Reproducing ResNet50 on ImageNet
-To train 
+Unfortunately the checkpoint file for the ResNet50 on ImageNet is too large for github.
+Therefore it is necessary to train the model first. 
+
+A new model can be trained using the command: 
+```bash
+./train_resnet_imagenet.sh
+```
