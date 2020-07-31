@@ -3,7 +3,9 @@ events.out.tfevents.*
 datasets/*
 resnet_cifar_spikes.txt
 resnet_imagenet_spikes.txt
+effnet_imagenet_spikes.txt
 */eval/*
 */archive/*
 checkpoints/imagenet/effnet-b7/
 checkpoints/imagenet/*
+
