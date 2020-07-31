@@ -15,6 +15,11 @@ python3 tf_models/tpu/models/official/efficientnet/main.py \
 	--mode=eval \
 	--model_dir=checkpoints/imagenet/effnet-b7 \
 	--num_eval_images=50 \
-	--use_fs
+	--use_fs 2> effnet_imagenet_spikes.txt
+
+python3 extract_spikes.py \
+	--file_name=effnet_imagenet_spikes.txt \
+	--n_neurons=259000000 \
+	--n_images=50
 
 

@@ -7,7 +7,7 @@ from fs_weights import *
 original_relu = tf.nn.relu
 original_sigmoid = tf.nn.sigmoid
 
-print_spikes = False
+print_spikes = True
 
 
 # spike function
