@@ -1,0 +1,74 @@
+Number of neurons: 69120000, Number of layers: 12
+Using AMOS Swish
+Number of neurons: 69120192, Number of layers: 24
+Using AMOS Swish
+Number of neurons: 69120704, Number of layers: 32
+Using AMOS sigmoid
+Using original Multiplication
+Number of neurons: 103680704, Number of layers: 44
+Using AMOS Swish
+Number of neurons: 103680800, Number of layers: 56
+Using AMOS Swish
+Number of neurons: 103681056, Number of layers: 64
+Using AMOS sigmoid
+Using original Multiplication
+Number of neurons: 311041056, Number of layers: 76
+Using AMOS Swish
+Number of neurons: 362881056, Number of layers: 88
+Using AMOS Swish
+Number of neurons: 362882592, Number of layers: 96
+Using AMOS sigmoid
+Using original Multiplication
+Number of neurons: 440642592, Number of layers: 108
+Using AMOS Swish
+Number of neurons: 440642736, Number of layers: 120
+Using AMOS Swish
+Number of neurons: 440645040, Number of layers: 128
+Using AMOS sigmoid
+Using original Multiplication
+Number of neurons: 460085040, Number of layers: 140
+Using AMOS Swish
+Using original Multiplication
+Number of neurons: 492485040, Number of layers: 152
+Using AMOS Swish
+Number of neurons: 492485280, Number of layers: 164
+Using AMOS Swish
+Number of neurons: 492489120, Number of layers: 172
+Using AMOS sigmoid
+Using original Multiplication
+Number of neurons: 500806560, Number of layers: 184
+Using AMOS Swish
+Using original Multiplication
+Number of neurons: 517441440, Number of layers: 196
+Using AMOS Swish
+Number of neurons: 517441920, Number of layers: 208
+Using AMOS Swish
+Number of neurons: 517449600, Number of layers: 216
+Using AMOS sigmoid
+Using original Multiplication
+Number of neurons: 540738432, Number of layers: 228
+Using AMOS Swish
+Number of neurons: 540739104, Number of layers: 240
+Using AMOS Swish
+Number of neurons: 540749856, Number of layers: 248
+Using AMOS sigmoid
+Using original Multiplication
+Number of neurons: 546572064, Number of layers: 260
+Using AMOS Swish
+Using original Multiplication
+Number of neurons: 556552992, Number of layers: 272
+Using AMOS Swish
+Number of neurons: 556554144, Number of layers: 284
+Using AMOS Swish
+Number of neurons: 556572576, Number of layers: 292
+Using AMOS sigmoid
+Using original Multiplication
+Number of neurons: 573207456, Number of layers: 304
+Using AMOS Swish
+Number of neurons: 573209376, Number of layers: 316
+Using AMOS Swish
+Number of neurons: 573240096, Number of layers: 324
+Using AMOS sigmoid
+Using original Multiplication
+Number of neurons: 584330016, Number of layers: 336
+Using AMOS Swish

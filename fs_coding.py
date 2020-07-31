@@ -7,6 +7,8 @@ from fs_weights import *
 original_relu = tf.nn.relu
 original_sigmoid = tf.nn.sigmoid
 
+print_spikes = False
+
 
 # spike function
 @tf.custom_gradient
@@ -70,12 +72,14 @@ def fs(x: tf.Tensor, h, d, T, K, return_reg=False):
     while_cond = lambda out, v_reg, z_reg, v, z, t: tf.less(t, K)
 
     def while_body(out, v_reg, z_reg, v, z, t):
-        v = v - z * h[t]  # update membrane potential
         v_scaled = (v - T[t]) / (tf.abs(v) + 1)
         z = spike_function(v_scaled)  # spike function
         v_reg += tf.square(tf.reduce_mean(tf.maximum(tf.abs(v_scaled) - 1, 0)))  # regularization
         z_reg += tf.reduce_mean(z)
+        if print_spikes:
+            z = tf.Print(z, [tf.reduce_sum(z)])
         out += z * d[t]  # compute output
+        v = v - z * h[t]  # update membrane potential
         t = t + 1
         return out, v_reg, z_reg, v, z, t
 
@@ -92,24 +96,28 @@ def fs_swish(x: tf.Tensor, return_reg=False):
                   return_reg=return_reg)
 
 
-def fs_relu(x: tf.Tensor, n_neurons=6, v_max=25, return_reg=False):
+def fs_relu(x: tf.Tensor, n_neurons=6, v_max=25, return_reg=False, fast=False):
     '''
     Note: As the relu function is a special case, it is no necessary to use the fs() function. 
     It is computationally cheaper to simply discretize the input and clip to the 
     minimum and maximum.
     '''
     with tf.name_scope("fs_ReLU"):
-        x = tf.maximum(x, 0)
-        x /= v_max
+        if fast:
+            x = tf.maximum(x, 0)
+            x /= v_max
 
-        x *= 2 ** (n_neurons)
-        i_out = tf.cast(tf.floor(x), tf.float32)
-        i_out /= 2 ** (n_neurons)
-        i_out *= v_max
-        i_out = tf.minimum(i_out, v_max * (1 - 2 ** (-n_neurons)))
-        if return_reg:
-            return tf.identity(i_out, name="i_out"), tf.constant(1.)
-        return tf.identity(i_out, name="i_out")
+            x *= 2 ** (n_neurons)
+            i_out = tf.cast(tf.floor(x), tf.float32)
+            i_out /= 2 ** (n_neurons)
+            i_out *= v_max
+            i_out = tf.minimum(i_out, v_max * (1 - 2 ** (-n_neurons)))
+            if return_reg:
+                return tf.identity(i_out, name="i_out"), tf.constant(1.)
+            return tf.identity(i_out, name="i_out")
+        else:
+            return fs(x, tf.constant(relu_h), tf.constant(relu_d), tf.constant(relu_T),
+                      K=len(relu_h), return_reg=return_reg)
 
 
 

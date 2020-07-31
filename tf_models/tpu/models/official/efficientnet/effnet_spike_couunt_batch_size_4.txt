@@ -1,0 +1,34 @@
+/calc/stoeckl/anaconda3/envs/TF1.14/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/calc/stoeckl/anaconda3/envs/TF1.14/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/calc/stoeckl/anaconda3/envs/TF1.14/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/calc/stoeckl/anaconda3/envs/TF1.14/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/calc/stoeckl/anaconda3/envs/TF1.14/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/calc/stoeckl/anaconda3/envs/TF1.14/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Traceback (most recent call last):
+  File "/calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py", line 27, in <module>
+    import tensorflow.compat.v1 as tf
+  File "/calc/stoeckl/anaconda3/envs/TF1.14/lib/python3.7/site-packages/tensorflow/__init__.py", line 28, in <module>
+    from tensorflow.python import pywrap_tensorflow  # pylint: disable=unused-import
+  File "/calc/stoeckl/anaconda3/envs/TF1.14/lib/python3.7/site-packages/tensorflow/python/__init__.py", line 83, in <module>
+    from tensorflow.python import keras
+  File "/calc/stoeckl/anaconda3/envs/TF1.14/lib/python3.7/site-packages/tensorflow/python/keras/__init__.py", line 26, in <module>
+    from tensorflow.python.keras import activations
+  File "/calc/stoeckl/anaconda3/envs/TF1.14/lib/python3.7/site-packages/tensorflow/python/keras/activations.py", line 24, in <module>
+    from tensorflow.python.keras.utils.generic_utils import deserialize_keras_object
+  File "/calc/stoeckl/anaconda3/envs/TF1.14/lib/python3.7/site-packages/tensorflow/python/keras/utils/__init__.py", line 39, in <module>
+    from tensorflow.python.keras.utils.multi_gpu_utils import multi_gpu_model
+  File "/calc/stoeckl/anaconda3/envs/TF1.14/lib/python3.7/site-packages/tensorflow/python/keras/utils/multi_gpu_utils.py", line 22, in <module>
+    from tensorflow.python.keras.engine.training import Model
+  File "/calc/stoeckl/anaconda3/envs/TF1.14/lib/python3.7/site-packages/tensorflow/python/keras/engine/training.py", line 40, in <module>
+    from tensorflow.python.keras.engine import network
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 963, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 906, in _find_spec
+  File "<frozen importlib._bootstrap>", line 792, in find_spec
+KeyboardInterrupt

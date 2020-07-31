@@ -1,0 +1,750 @@
+/home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/stoeckl/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/stoeckl/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/stoeckl/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/stoeckl/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/stoeckl/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/stoeckl/.local/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:663: The name tf.estimator.tpu.RunConfig is deprecated. Please use tf.compat.v1.estimator.tpu.RunConfig instead.
+
+W0304 11:04:11.954610 140151494817600 deprecation_wrapper.py:119] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:663: The name tf.estimator.tpu.RunConfig is deprecated. Please use tf.compat.v1.estimator.tpu.RunConfig instead.
+
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:668: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+W0304 11:04:11.954840 140151494817600 deprecation_wrapper.py:119] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:668: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:669: The name tf.GraphOptions is deprecated. Please use tf.compat.v1.GraphOptions instead.
+
+W0304 11:04:11.954946 140151494817600 deprecation_wrapper.py:119] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:669: The name tf.GraphOptions is deprecated. Please use tf.compat.v1.GraphOptions instead.
+
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:672: The name tf.estimator.tpu.TPUConfig is deprecated. Please use tf.compat.v1.estimator.tpu.TPUConfig instead.
+
+W0304 11:04:11.955175 140151494817600 deprecation_wrapper.py:119] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:672: The name tf.estimator.tpu.TPUConfig is deprecated. Please use tf.compat.v1.estimator.tpu.TPUConfig instead.
+
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:674: The name tf.estimator.tpu.InputPipelineConfig is deprecated. Please use tf.compat.v1.estimator.tpu.InputPipelineConfig instead.
+
+W0304 11:04:11.955286 140151494817600 deprecation_wrapper.py:119] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:674: The name tf.estimator.tpu.InputPipelineConfig is deprecated. Please use tf.compat.v1.estimator.tpu.InputPipelineConfig instead.
+
+INFO:tensorflow:Using config: {'_model_dir': '/calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1251, '_save_checkpoints_secs': None, '_session_config': graph_options {
+  rewrite_options {
+    disable_meta_optimizer: true
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 64, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f777fe993d0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1, '_tpu_config': TPUConfig(iterations_per_loop=1251, num_shards=None, num_cores_per_replica=None, per_host_input_for_training=3, tpu_job_name=None, initial_infeed_sleep_secs=None, input_partition_dims=None, eval_training_input_configuration=2), '_cluster': None}
+I0304 11:04:11.955875 140151494817600 estimator.py:209] Using config: {'_model_dir': '/calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1251, '_save_checkpoints_secs': None, '_session_config': graph_options {
+  rewrite_options {
+    disable_meta_optimizer: true
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 64, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f777fe993d0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1, '_tpu_config': TPUConfig(iterations_per_loop=1251, num_shards=None, num_cores_per_replica=None, per_host_input_for_training=3, tpu_job_name=None, initial_infeed_sleep_secs=None, input_partition_dims=None, eval_training_input_configuration=2), '_cluster': None}
+I0304 11:04:11.956202 140151494817600 main.py:710] Using dataset: /calc/SHARED/imagenet/tf_records
+I0304 11:04:11.956307 140151494817600 main.py:710] Using dataset: /calc/SHARED/imagenet/tf_records
+INFO:tensorflow:Waiting for new checkpoint at /calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug
+I0304 11:04:11.956403 140151494817600 checkpoint_utils.py:124] Waiting for new checkpoint at /calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug
+INFO:tensorflow:Found new checkpoint at /calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug/efficientnet-b7
+I0304 11:04:11.984046 140151494817600 checkpoint_utils.py:133] Found new checkpoint at /calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug/efficientnet-b7
+I0304 11:04:11.984161 140151494817600 main.py:735] Starting to evaluate.
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/imagenet_input.py:385: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+W0304 11:04:12.033628 140151494817600 deprecation.py:323] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/imagenet_input.py:385: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.experimental.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.experimental_determinstic`.
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/imagenet_input.py:241: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+W0304 11:04:12.059268 140151494817600 deprecation.py:323] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/imagenet_input.py:241: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+INFO:tensorflow:Calling model_fn.
+I0304 11:04:12.124351 140151494817600 estimator.py:1145] Calling model_fn.
+I0304 11:04:12.125860 140151494817600 main.py:315] Using open-source implementation.
+I0304 11:04:12.128793 140151494817600 efficientnet_builder.py:211] global_params= GlobalParams(batch_norm_momentum=0.99, batch_norm_epsilon=0.001, dropout_rate=0.5, data_format='channels_last', num_classes=1000, width_coefficient=2.0, depth_coefficient=3.1, depth_divisor=8, min_depth=None, drop_connect_rate=0.2, relu_fn=<function fs_swish at 0x7f777fe79cb0>, batch_norm=<class 'utils.BatchNormalization'>, use_se=True, local_pooling=None, condconv_num_experts=None, clip_projection_output=False)
+I0304 11:04:12.128936 140151494817600 efficientnet_builder.py:212] blocks_args= [BlockArgs(kernel_size=3, num_repeat=1, input_filters=32, output_filters=16, expand_ratio=1, id_skip=True, strides=[1, 1], se_ratio=0.25, conv_type=0, fused_conv=0, super_pixel=0, condconv=False), BlockArgs(kernel_size=3, num_repeat=2, input_filters=16, output_filters=24, expand_ratio=6, id_skip=True, strides=[2, 2], se_ratio=0.25, conv_type=0, fused_conv=0, super_pixel=0, condconv=False), BlockArgs(kernel_size=5, num_repeat=2, input_filters=24, output_filters=40, expand_ratio=6, id_skip=True, strides=[2, 2], se_ratio=0.25, conv_type=0, fused_conv=0, super_pixel=0, condconv=False), BlockArgs(kernel_size=3, num_repeat=3, input_filters=40, output_filters=80, expand_ratio=6, id_skip=True, strides=[2, 2], se_ratio=0.25, conv_type=0, fused_conv=0, super_pixel=0, condconv=False), BlockArgs(kernel_size=5, num_repeat=3, input_filters=80, output_filters=112, expand_ratio=6, id_skip=True, strides=[1, 1], se_ratio=0.25, conv_type=0, fused_conv=0, super_pixel=0, condconv=False), BlockArgs(kernel_size=5, num_repeat=4, input_filters=112, output_filters=192, expand_ratio=6, id_skip=True, strides=[2, 2], se_ratio=0.25, conv_type=0, fused_conv=0, super_pixel=0, condconv=False), BlockArgs(kernel_size=3, num_repeat=1, input_filters=192, output_filters=320, expand_ratio=6, id_skip=True, strides=[1, 1], se_ratio=0.25, conv_type=0, fused_conv=0, super_pixel=0, condconv=False)]
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/efficientnet_model.py:533: The name tf.layers.Conv2D is deprecated. Please use tf.compat.v1.layers.Conv2D instead.
+
+W0304 11:04:12.131918 140151494817600 deprecation_wrapper.py:119] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/efficientnet_model.py:533: The name tf.layers.Conv2D is deprecated. Please use tf.compat.v1.layers.Conv2D instead.
+
+I0304 11:04:12.132024 140151494817600 efficientnet_model.py:153] round_filter input=32 output=64
+I0304 11:04:12.132940 140151494817600 efficientnet_model.py:153] round_filter input=32 output=64
+I0304 11:04:12.133021 140151494817600 efficientnet_model.py:153] round_filter input=16 output=32
+WARNING:tensorflow:From /home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0304 11:04:12.134243 140151494817600 deprecation.py:506] From /home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+I0304 11:04:12.143168 140151494817600 efficientnet_model.py:153] round_filter input=16 output=32
+I0304 11:04:12.143249 140151494817600 efficientnet_model.py:153] round_filter input=24 output=48
+I0304 11:04:12.161812 140151494817600 efficientnet_model.py:153] round_filter input=24 output=48
+I0304 11:04:12.161905 140151494817600 efficientnet_model.py:153] round_filter input=40 output=80
+I0304 11:04:12.180368 140151494817600 efficientnet_model.py:153] round_filter input=40 output=80
+I0304 11:04:12.180465 140151494817600 efficientnet_model.py:153] round_filter input=80 output=160
+I0304 11:04:12.207561 140151494817600 efficientnet_model.py:153] round_filter input=80 output=160
+I0304 11:04:12.207652 140151494817600 efficientnet_model.py:153] round_filter input=112 output=224
+I0304 11:04:12.272620 140151494817600 efficientnet_model.py:153] round_filter input=112 output=224
+I0304 11:04:12.272758 140151494817600 efficientnet_model.py:153] round_filter input=192 output=384
+I0304 11:04:12.305917 140151494817600 efficientnet_model.py:153] round_filter input=192 output=384
+I0304 11:04:12.305999 140151494817600 efficientnet_model.py:153] round_filter input=320 output=640
+I0304 11:04:12.316628 140151494817600 efficientnet_model.py:153] round_filter input=1280 output=2560
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/efficientnet_model.py:611: The name tf.layers.Dense is deprecated. Please use tf.compat.v1.layers.Dense instead.
+
+W0304 11:04:12.317858 140151494817600 deprecation_wrapper.py:119] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/efficientnet_model.py:611: The name tf.layers.Dense is deprecated. Please use tf.compat.v1.layers.Dense instead.
+
+WARNING:tensorflow:From /home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/autograph/converters/directives.py:117: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0304 11:04:12.566764 140151494817600 deprecation_wrapper.py:119] From /home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/autograph/converters/directives.py:117: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/autograph/converters/directives.py:117: The name tf.nn.avg_pool is deprecated. Please use tf.nn.avg_pool2d instead.
+
+W0304 11:04:12.570158 140151494817600 deprecation_wrapper.py:119] From /home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/autograph/converters/directives.py:117: The name tf.nn.avg_pool is deprecated. Please use tf.nn.avg_pool2d instead.
+
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/efficientnet_model.py:78: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+W0304 11:04:13.420110 140151494817600 deprecation_wrapper.py:119] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/efficientnet_model.py:78: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/util.py:7: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0304 11:04:14.140429 140151494817600 deprecation.py:323] From /calc/stoeckl/binary_populations/util.py:7: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:15.973907 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:15.369922 140151494817600 api.py:452] Built stem layers with output shape: (4, 300, 300, 64)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:16.021487 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:16.012219 140151494817600 api.py:452] block_0 drop_connect_rate: 0.0
+I0304 11:04:16.022172 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/stem/fs_Swish/while/Exit:0 shape: (4, 300, 300, 64)
+I0304 11:04:16.022271 140151494817600 efficientnet_model.py:348] Block input depth: 64 output depth: 32
+I0304 11:04:16.283158 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_0/fs_Swish/while/Exit:0 shape: (4, 300, 300, 64)
+I0304 11:04:16.389734 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 64)
+2020-03-04 11:04:16.463374: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-03-04 11:04:16.512959: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:02:00.0
+2020-03-04 11:04:16.513240: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-04 11:04:16.514682: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-04 11:04:16.515943: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-04 11:04:16.516249: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-04 11:04:16.517956: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-04 11:04:16.519281: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-04 11:04:16.523667: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-04 11:04:16.525466: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-04 11:04:16.525888: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-03-04 11:04:16.567551: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2194740000 Hz
+2020-03-04 11:04:16.570459: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x560d2b834fc0 executing computations on platform Host. Devices:
+2020-03-04 11:04:16.570492: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-03-04 11:04:16.571725: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:02:00.0
+2020-03-04 11:04:16.571763: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-04 11:04:16.571775: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-04 11:04:16.571785: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-04 11:04:16.571794: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-04 11:04:16.571804: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-04 11:04:16.571813: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-04 11:04:16.571838: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-04 11:04:16.573513: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-04 11:04:16.573563: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-04 11:04:16.673046: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-04 11:04:16.673083: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-04 11:04:16.673107: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-04 11:04:16.675808: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15216 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:02:00.0, compute capability: 6.0)
+2020-03-04 11:04:16.678148: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x560d2c660190 executing computations on platform CUDA. Devices:
+2020-03-04 11:04:16.678165: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Tesla P100-PCIE-16GB, Compute Capability 6.0
+I0304 11:04:16.834041 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_0/Identity:0 shape: (4, 300, 300, 32)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:16.898525 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:16.888670 140151494817600 api.py:452] block_1 drop_connect_rate: 0.0036363636363636364
+I0304 11:04:16.899209 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_0/Identity:0 shape: (4, 300, 300, 32)
+I0304 11:04:16.899313 140151494817600 efficientnet_model.py:348] Block input depth: 32 output depth: 32
+I0304 11:04:17.005330 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_1/fs_Swish/while/Exit:0 shape: (4, 300, 300, 32)
+I0304 11:04:17.109140 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 32)
+I0304 11:04:17.220261 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_1/Add:0 shape: (4, 300, 300, 32)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:17.233319 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:17.223139 140151494817600 api.py:452] block_2 drop_connect_rate: 0.007272727272727273
+I0304 11:04:17.233935 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_1/Add:0 shape: (4, 300, 300, 32)
+I0304 11:04:17.234029 140151494817600 efficientnet_model.py:348] Block input depth: 32 output depth: 32
+I0304 11:04:17.340950 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_2/fs_Swish/while/Exit:0 shape: (4, 300, 300, 32)
+I0304 11:04:17.445533 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 32)
+I0304 11:04:17.554392 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_2/Add:0 shape: (4, 300, 300, 32)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:17.602832 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:17.593476 140151494817600 api.py:452] block_3 drop_connect_rate: 0.01090909090909091
+I0304 11:04:17.603449 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_2/Add:0 shape: (4, 300, 300, 32)
+I0304 11:04:17.603551 140151494817600 efficientnet_model.py:348] Block input depth: 32 output depth: 32
+I0304 11:04:17.708596 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_3/fs_Swish/while/Exit:0 shape: (4, 300, 300, 32)
+I0304 11:04:17.873286 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 32)
+I0304 11:04:17.983136 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_3/Add:0 shape: (4, 300, 300, 32)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:17.996606 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:17.986152 140151494817600 api.py:452] block_4 drop_connect_rate: 0.014545454545454545
+I0304 11:04:17.997273 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_3/Add:0 shape: (4, 300, 300, 32)
+I0304 11:04:17.997373 140151494817600 efficientnet_model.py:348] Block input depth: 32 output depth: 48
+I0304 11:04:18.103872 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_4/fs_Swish/while/Exit:0 shape: (4, 300, 300, 192)
+I0304 11:04:18.207731 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_4/fs_Swish_1/while/Exit:0 shape: (4, 150, 150, 192)
+I0304 11:04:18.312893 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 192)
+I0304 11:04:18.423278 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_4/Identity:0 shape: (4, 150, 150, 48)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:18.435918 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:18.426011 140151494817600 api.py:452] block_5 drop_connect_rate: 0.018181818181818184
+I0304 11:04:18.436500 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_4/Identity:0 shape: (4, 150, 150, 48)
+I0304 11:04:18.436589 140151494817600 efficientnet_model.py:348] Block input depth: 48 output depth: 48
+I0304 11:04:18.543716 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_5/fs_Swish/while/Exit:0 shape: (4, 150, 150, 288)
+I0304 11:04:18.653125 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_5/fs_Swish_1/while/Exit:0 shape: (4, 150, 150, 288)
+I0304 11:04:18.760972 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 288)
+I0304 11:04:18.878533 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_5/Add:0 shape: (4, 150, 150, 48)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:18.891575 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:18.881371 140151494817600 api.py:452] block_6 drop_connect_rate: 0.02181818181818182
+I0304 11:04:18.892229 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_5/Add:0 shape: (4, 150, 150, 48)
+I0304 11:04:18.892327 140151494817600 efficientnet_model.py:348] Block input depth: 48 output depth: 48
+I0304 11:04:19.076012 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_6/fs_Swish/while/Exit:0 shape: (4, 150, 150, 288)
+I0304 11:04:19.189388 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_6/fs_Swish_1/while/Exit:0 shape: (4, 150, 150, 288)
+I0304 11:04:19.300542 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 288)
+I0304 11:04:19.415521 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_6/Add:0 shape: (4, 150, 150, 48)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:19.428965 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:19.418571 140151494817600 api.py:452] block_7 drop_connect_rate: 0.025454545454545452
+I0304 11:04:19.429616 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_6/Add:0 shape: (4, 150, 150, 48)
+I0304 11:04:19.429717 140151494817600 efficientnet_model.py:348] Block input depth: 48 output depth: 48
+I0304 11:04:19.542808 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_7/fs_Swish/while/Exit:0 shape: (4, 150, 150, 288)
+I0304 11:04:19.655574 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_7/fs_Swish_1/while/Exit:0 shape: (4, 150, 150, 288)
+I0304 11:04:19.767012 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 288)
+I0304 11:04:19.883366 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_7/Add:0 shape: (4, 150, 150, 48)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:19.896747 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:19.886464 140151494817600 api.py:452] block_8 drop_connect_rate: 0.02909090909090909
+I0304 11:04:19.897404 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_7/Add:0 shape: (4, 150, 150, 48)
+I0304 11:04:19.897504 140151494817600 efficientnet_model.py:348] Block input depth: 48 output depth: 48
+I0304 11:04:20.010678 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_8/fs_Swish/while/Exit:0 shape: (4, 150, 150, 288)
+I0304 11:04:20.123931 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_8/fs_Swish_1/while/Exit:0 shape: (4, 150, 150, 288)
+I0304 11:04:20.236588 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 288)
+I0304 11:04:20.448308 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_8/Add:0 shape: (4, 150, 150, 48)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:20.461739 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:20.451406 140151494817600 api.py:452] block_9 drop_connect_rate: 0.03272727272727273
+I0304 11:04:20.462390 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_8/Add:0 shape: (4, 150, 150, 48)
+I0304 11:04:20.462488 140151494817600 efficientnet_model.py:348] Block input depth: 48 output depth: 48
+I0304 11:04:20.576186 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_9/fs_Swish/while/Exit:0 shape: (4, 150, 150, 288)
+I0304 11:04:20.690443 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_9/fs_Swish_1/while/Exit:0 shape: (4, 150, 150, 288)
+I0304 11:04:20.802892 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 288)
+I0304 11:04:20.916203 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_9/Add:0 shape: (4, 150, 150, 48)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:20.929330 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:20.919115 140151494817600 api.py:452] block_10 drop_connect_rate: 0.03636363636363637
+I0304 11:04:20.930008 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_9/Add:0 shape: (4, 150, 150, 48)
+I0304 11:04:20.930110 140151494817600 efficientnet_model.py:348] Block input depth: 48 output depth: 48
+I0304 11:04:21.036788 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_10/fs_Swish/while/Exit:0 shape: (4, 150, 150, 288)
+I0304 11:04:21.145100 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_10/fs_Swish_1/while/Exit:0 shape: (4, 150, 150, 288)
+I0304 11:04:21.251947 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 288)
+I0304 11:04:21.364603 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_10/Add:0 shape: (4, 150, 150, 48)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:21.377668 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:21.367604 140151494817600 api.py:452] block_11 drop_connect_rate: 0.04000000000000001
+I0304 11:04:21.378279 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_10/Add:0 shape: (4, 150, 150, 48)
+I0304 11:04:21.378374 140151494817600 efficientnet_model.py:348] Block input depth: 48 output depth: 80
+I0304 11:04:21.487658 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_11/fs_Swish/while/Exit:0 shape: (4, 150, 150, 288)
+I0304 11:04:21.593757 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_11/fs_Swish_1/while/Exit:0 shape: (4, 75, 75, 288)
+I0304 11:04:21.700438 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 288)
+I0304 11:04:21.812901 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_11/Identity:0 shape: (4, 75, 75, 80)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:21.825535 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:21.815601 140151494817600 api.py:452] block_12 drop_connect_rate: 0.04363636363636364
+I0304 11:04:21.826177 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_11/Identity:0 shape: (4, 75, 75, 80)
+I0304 11:04:21.826274 140151494817600 efficientnet_model.py:348] Block input depth: 80 output depth: 80
+I0304 11:04:22.038761 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_12/fs_Swish/while/Exit:0 shape: (4, 75, 75, 480)
+I0304 11:04:22.146846 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_12/fs_Swish_1/while/Exit:0 shape: (4, 75, 75, 480)
+I0304 11:04:22.253350 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 480)
+I0304 11:04:22.369257 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_12/Add:0 shape: (4, 75, 75, 80)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:22.382604 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:22.372309 140151494817600 api.py:452] block_13 drop_connect_rate: 0.04727272727272727
+I0304 11:04:22.383289 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_12/Add:0 shape: (4, 75, 75, 80)
+I0304 11:04:22.383410 140151494817600 efficientnet_model.py:348] Block input depth: 80 output depth: 80
+I0304 11:04:22.495025 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_13/fs_Swish/while/Exit:0 shape: (4, 75, 75, 480)
+I0304 11:04:22.606925 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_13/fs_Swish_1/while/Exit:0 shape: (4, 75, 75, 480)
+I0304 11:04:22.716930 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 480)
+I0304 11:04:22.822839 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_13/Add:0 shape: (4, 75, 75, 80)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:22.837372 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:22.825846 140151494817600 api.py:452] block_14 drop_connect_rate: 0.050909090909090904
+I0304 11:04:22.838062 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_13/Add:0 shape: (4, 75, 75, 80)
+I0304 11:04:22.838165 140151494817600 efficientnet_model.py:348] Block input depth: 80 output depth: 80
+I0304 11:04:22.944867 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_14/fs_Swish/while/Exit:0 shape: (4, 75, 75, 480)
+I0304 11:04:23.052299 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_14/fs_Swish_1/while/Exit:0 shape: (4, 75, 75, 480)
+I0304 11:04:23.161241 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 480)
+I0304 11:04:23.274664 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_14/Add:0 shape: (4, 75, 75, 80)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:23.288272 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:23.277648 140151494817600 api.py:452] block_15 drop_connect_rate: 0.05454545454545454
+I0304 11:04:23.288952 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_14/Add:0 shape: (4, 75, 75, 80)
+I0304 11:04:23.289052 140151494817600 efficientnet_model.py:348] Block input depth: 80 output depth: 80
+I0304 11:04:23.398283 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_15/fs_Swish/while/Exit:0 shape: (4, 75, 75, 480)
+I0304 11:04:23.507619 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_15/fs_Swish_1/while/Exit:0 shape: (4, 75, 75, 480)
+I0304 11:04:23.613160 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 480)
+I0304 11:04:23.729192 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_15/Add:0 shape: (4, 75, 75, 80)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:23.879202 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:23.732483 140151494817600 api.py:452] block_16 drop_connect_rate: 0.05818181818181818
+I0304 11:04:23.880034 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_15/Add:0 shape: (4, 75, 75, 80)
+I0304 11:04:23.880143 140151494817600 efficientnet_model.py:348] Block input depth: 80 output depth: 80
+I0304 11:04:23.994060 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_16/fs_Swish/while/Exit:0 shape: (4, 75, 75, 480)
+I0304 11:04:24.107999 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_16/fs_Swish_1/while/Exit:0 shape: (4, 75, 75, 480)
+I0304 11:04:24.220492 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 480)
+I0304 11:04:24.337185 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_16/Add:0 shape: (4, 75, 75, 80)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:24.350516 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:24.340250 140151494817600 api.py:452] block_17 drop_connect_rate: 0.06181818181818182
+I0304 11:04:24.351173 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_16/Add:0 shape: (4, 75, 75, 80)
+I0304 11:04:24.351274 140151494817600 efficientnet_model.py:348] Block input depth: 80 output depth: 80
+I0304 11:04:24.463958 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_17/fs_Swish/while/Exit:0 shape: (4, 75, 75, 480)
+I0304 11:04:24.578304 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_17/fs_Swish_1/while/Exit:0 shape: (4, 75, 75, 480)
+I0304 11:04:24.691800 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 480)
+I0304 11:04:24.808360 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_17/Add:0 shape: (4, 75, 75, 80)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:24.821968 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:24.811520 140151494817600 api.py:452] block_18 drop_connect_rate: 0.06545454545454546
+I0304 11:04:24.822629 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_17/Add:0 shape: (4, 75, 75, 80)
+I0304 11:04:24.822728 140151494817600 efficientnet_model.py:348] Block input depth: 80 output depth: 160
+I0304 11:04:24.936762 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_18/fs_Swish/while/Exit:0 shape: (4, 75, 75, 480)
+I0304 11:04:25.051802 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_18/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 480)
+I0304 11:04:25.165020 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 480)
+I0304 11:04:25.285304 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_18/Identity:0 shape: (4, 38, 38, 160)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:25.298915 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:25.288406 140151494817600 api.py:452] block_19 drop_connect_rate: 0.06909090909090909
+I0304 11:04:25.299587 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_18/Identity:0 shape: (4, 38, 38, 160)
+I0304 11:04:25.299688 140151494817600 efficientnet_model.py:348] Block input depth: 160 output depth: 160
+I0304 11:04:25.414161 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_19/fs_Swish/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:25.530945 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_19/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:25.645628 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 960)
+I0304 11:04:25.760155 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_19/Add:0 shape: (4, 38, 38, 160)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:25.775066 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:25.763435 140151494817600 api.py:452] block_20 drop_connect_rate: 0.07272727272727274
+I0304 11:04:25.775799 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_19/Add:0 shape: (4, 38, 38, 160)
+I0304 11:04:25.775894 140151494817600 efficientnet_model.py:348] Block input depth: 160 output depth: 160
+I0304 11:04:25.884246 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_20/fs_Swish/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:25.992506 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_20/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:26.100373 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 960)
+I0304 11:04:26.367436 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_20/Add:0 shape: (4, 38, 38, 160)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:26.380492 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:26.370332 140151494817600 api.py:452] block_21 drop_connect_rate: 0.07636363636363637
+I0304 11:04:26.381126 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_20/Add:0 shape: (4, 38, 38, 160)
+I0304 11:04:26.381223 140151494817600 efficientnet_model.py:348] Block input depth: 160 output depth: 160
+I0304 11:04:26.490234 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_21/fs_Swish/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:26.599992 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_21/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:26.706980 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 960)
+I0304 11:04:26.815271 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_21/Add:0 shape: (4, 38, 38, 160)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:26.828150 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:26.818090 140151494817600 api.py:452] block_22 drop_connect_rate: 0.08000000000000002
+I0304 11:04:26.828791 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_21/Add:0 shape: (4, 38, 38, 160)
+I0304 11:04:26.828886 140151494817600 efficientnet_model.py:348] Block input depth: 160 output depth: 160
+I0304 11:04:26.938049 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_22/fs_Swish/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:27.048546 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_22/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:27.154847 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 960)
+I0304 11:04:27.267996 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_22/Add:0 shape: (4, 38, 38, 160)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:27.281087 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:27.271129 140151494817600 api.py:452] block_23 drop_connect_rate: 0.08363636363636363
+I0304 11:04:27.281705 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_22/Add:0 shape: (4, 38, 38, 160)
+I0304 11:04:27.281799 140151494817600 efficientnet_model.py:348] Block input depth: 160 output depth: 160
+I0304 11:04:27.389962 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_23/fs_Swish/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:27.500021 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_23/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:27.609504 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 960)
+I0304 11:04:27.721163 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_23/Add:0 shape: (4, 38, 38, 160)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:27.733899 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:27.724019 140151494817600 api.py:452] block_24 drop_connect_rate: 0.08727272727272728
+I0304 11:04:27.734483 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_23/Add:0 shape: (4, 38, 38, 160)
+I0304 11:04:27.734574 140151494817600 efficientnet_model.py:348] Block input depth: 160 output depth: 160
+I0304 11:04:27.843299 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_24/fs_Swish/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:27.954404 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_24/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:28.060065 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 960)
+I0304 11:04:28.170478 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_24/Add:0 shape: (4, 38, 38, 160)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:28.182972 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:28.173221 140151494817600 api.py:452] block_25 drop_connect_rate: 0.09090909090909091
+I0304 11:04:28.183654 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_24/Add:0 shape: (4, 38, 38, 160)
+I0304 11:04:28.183756 140151494817600 efficientnet_model.py:348] Block input depth: 160 output depth: 160
+I0304 11:04:28.290526 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_25/fs_Swish/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:28.400054 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_25/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:28.510614 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 960)
+I0304 11:04:28.622597 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_25/Add:0 shape: (4, 38, 38, 160)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:28.636271 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:28.625877 140151494817600 api.py:452] block_26 drop_connect_rate: 0.09454545454545454
+I0304 11:04:28.636940 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_25/Add:0 shape: (4, 38, 38, 160)
+I0304 11:04:28.637041 140151494817600 efficientnet_model.py:348] Block input depth: 160 output depth: 160
+I0304 11:04:28.750956 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_26/fs_Swish/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:28.865133 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_26/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:29.003321 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 960)
+I0304 11:04:29.347940 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_26/Add:0 shape: (4, 38, 38, 160)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:29.361804 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:29.351310 140151494817600 api.py:452] block_27 drop_connect_rate: 0.09818181818181819
+I0304 11:04:29.362476 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_26/Add:0 shape: (4, 38, 38, 160)
+I0304 11:04:29.362586 140151494817600 efficientnet_model.py:348] Block input depth: 160 output depth: 160
+I0304 11:04:29.478183 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_27/fs_Swish/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:29.593930 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_27/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:29.708870 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 960)
+I0304 11:04:29.827285 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_27/Add:0 shape: (4, 38, 38, 160)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:29.840759 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:29.830371 140151494817600 api.py:452] block_28 drop_connect_rate: 0.10181818181818181
+I0304 11:04:29.841423 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_27/Add:0 shape: (4, 38, 38, 160)
+I0304 11:04:29.841521 140151494817600 efficientnet_model.py:348] Block input depth: 160 output depth: 224
+I0304 11:04:29.956550 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_28/fs_Swish/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:30.071780 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_28/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 960)
+I0304 11:04:30.186026 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 960)
+I0304 11:04:30.303322 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_28/Identity:0 shape: (4, 38, 38, 224)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:30.316764 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:30.306441 140151494817600 api.py:452] block_29 drop_connect_rate: 0.10545454545454545
+I0304 11:04:30.317431 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_28/Identity:0 shape: (4, 38, 38, 224)
+I0304 11:04:30.317533 140151494817600 efficientnet_model.py:348] Block input depth: 224 output depth: 224
+I0304 11:04:30.437406 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_29/fs_Swish/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:30.556356 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_29/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:30.665674 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 1344)
+I0304 11:04:30.779444 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_29/Add:0 shape: (4, 38, 38, 224)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:30.791549 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:30.782233 140151494817600 api.py:452] block_30 drop_connect_rate: 0.10909090909090909
+I0304 11:04:30.792178 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_29/Add:0 shape: (4, 38, 38, 224)
+I0304 11:04:30.792268 140151494817600 efficientnet_model.py:348] Block input depth: 224 output depth: 224
+I0304 11:04:30.906721 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_30/fs_Swish/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:31.022742 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_30/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:31.130115 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 1344)
+I0304 11:04:31.242368 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_30/Add:0 shape: (4, 38, 38, 224)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:31.256229 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:31.245499 140151494817600 api.py:452] block_31 drop_connect_rate: 0.11272727272727273
+I0304 11:04:31.256901 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_30/Add:0 shape: (4, 38, 38, 224)
+I0304 11:04:31.257003 140151494817600 efficientnet_model.py:348] Block input depth: 224 output depth: 224
+I0304 11:04:31.371652 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_31/fs_Swish/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:31.490171 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_31/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:31.601560 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 1344)
+I0304 11:04:31.715111 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_31/Add:0 shape: (4, 38, 38, 224)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:31.727921 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:31.718254 140151494817600 api.py:452] block_32 drop_connect_rate: 0.11636363636363636
+I0304 11:04:31.728511 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_31/Add:0 shape: (4, 38, 38, 224)
+I0304 11:04:31.728600 140151494817600 efficientnet_model.py:348] Block input depth: 224 output depth: 224
+I0304 11:04:31.842342 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_32/fs_Swish/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:31.959419 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_32/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:32.066381 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 1344)
+I0304 11:04:32.178344 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_32/Add:0 shape: (4, 38, 38, 224)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:32.191378 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:32.181153 140151494817600 api.py:452] block_33 drop_connect_rate: 0.12
+I0304 11:04:32.192053 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_32/Add:0 shape: (4, 38, 38, 224)
+I0304 11:04:32.192148 140151494817600 efficientnet_model.py:348] Block input depth: 224 output depth: 224
+I0304 11:04:32.306197 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_33/fs_Swish/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:32.424539 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_33/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:32.533348 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 1344)
+I0304 11:04:32.646552 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_33/Add:0 shape: (4, 38, 38, 224)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:32.660851 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:32.649771 140151494817600 api.py:452] block_34 drop_connect_rate: 0.12363636363636364
+I0304 11:04:32.661452 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_33/Add:0 shape: (4, 38, 38, 224)
+I0304 11:04:32.661541 140151494817600 efficientnet_model.py:348] Block input depth: 224 output depth: 224
+I0304 11:04:32.777220 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_34/fs_Swish/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:33.120759 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_34/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:33.236544 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 1344)
+I0304 11:04:33.353569 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_34/Add:0 shape: (4, 38, 38, 224)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:33.367749 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:33.356711 140151494817600 api.py:452] block_35 drop_connect_rate: 0.1272727272727273
+I0304 11:04:33.368405 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_34/Add:0 shape: (4, 38, 38, 224)
+I0304 11:04:33.368505 140151494817600 efficientnet_model.py:348] Block input depth: 224 output depth: 224
+I0304 11:04:33.488695 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_35/fs_Swish/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:33.609428 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_35/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:33.725172 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 1344)
+I0304 11:04:33.841618 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_35/Add:0 shape: (4, 38, 38, 224)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:33.855229 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:33.844810 140151494817600 api.py:452] block_36 drop_connect_rate: 0.13090909090909092
+I0304 11:04:33.855926 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_35/Add:0 shape: (4, 38, 38, 224)
+I0304 11:04:33.856024 140151494817600 efficientnet_model.py:348] Block input depth: 224 output depth: 224
+I0304 11:04:33.977264 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_36/fs_Swish/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:34.098825 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_36/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:34.214296 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 1344)
+I0304 11:04:34.332852 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_36/Add:0 shape: (4, 38, 38, 224)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:34.346414 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:34.336002 140151494817600 api.py:452] block_37 drop_connect_rate: 0.13454545454545455
+I0304 11:04:34.347095 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_36/Add:0 shape: (4, 38, 38, 224)
+I0304 11:04:34.347196 140151494817600 efficientnet_model.py:348] Block input depth: 224 output depth: 224
+I0304 11:04:34.468251 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_37/fs_Swish/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:34.590245 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_37/fs_Swish_1/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:34.706361 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 1344)
+I0304 11:04:34.826814 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_37/Add:0 shape: (4, 38, 38, 224)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:34.840419 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:34.830139 140151494817600 api.py:452] block_38 drop_connect_rate: 0.13818181818181818
+I0304 11:04:34.841078 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_37/Add:0 shape: (4, 38, 38, 224)
+I0304 11:04:34.841179 140151494817600 efficientnet_model.py:348] Block input depth: 224 output depth: 384
+I0304 11:04:34.962240 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_38/fs_Swish/while/Exit:0 shape: (4, 38, 38, 1344)
+I0304 11:04:35.079173 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_38/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 1344)
+I0304 11:04:35.188840 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 1344)
+I0304 11:04:35.308188 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_38/Identity:0 shape: (4, 19, 19, 384)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:35.321329 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:35.311135 140151494817600 api.py:452] block_39 drop_connect_rate: 0.14181818181818182
+I0304 11:04:35.321994 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_38/Identity:0 shape: (4, 19, 19, 384)
+I0304 11:04:35.322096 140151494817600 efficientnet_model.py:348] Block input depth: 384 output depth: 384
+I0304 11:04:35.438633 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_39/fs_Swish/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:35.558214 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_39/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:35.670348 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 2304)
+I0304 11:04:35.785700 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_39/Add:0 shape: (4, 19, 19, 384)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:35.797778 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:35.788578 140151494817600 api.py:452] block_40 drop_connect_rate: 0.14545454545454548
+I0304 11:04:35.798362 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_39/Add:0 shape: (4, 19, 19, 384)
+I0304 11:04:35.798451 140151494817600 efficientnet_model.py:348] Block input depth: 384 output depth: 384
+I0304 11:04:35.911529 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_40/fs_Swish/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:36.027328 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_40/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:36.136377 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 2304)
+I0304 11:04:36.249662 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_40/Add:0 shape: (4, 19, 19, 384)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:36.262700 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:36.252795 140151494817600 api.py:452] block_41 drop_connect_rate: 0.1490909090909091
+I0304 11:04:36.263340 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_40/Add:0 shape: (4, 19, 19, 384)
+I0304 11:04:36.263461 140151494817600 efficientnet_model.py:348] Block input depth: 384 output depth: 384
+I0304 11:04:36.380755 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_41/fs_Swish/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:36.497044 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_41/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:36.617481 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 2304)
+I0304 11:04:36.734619 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_41/Add:0 shape: (4, 19, 19, 384)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:36.749326 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:36.738178 140151494817600 api.py:452] block_42 drop_connect_rate: 0.15272727272727274
+I0304 11:04:36.749927 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_41/Add:0 shape: (4, 19, 19, 384)
+I0304 11:04:36.750017 140151494817600 efficientnet_model.py:348] Block input depth: 384 output depth: 384
+I0304 11:04:36.865017 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_42/fs_Swish/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:36.984937 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_42/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:37.098589 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 2304)
+I0304 11:04:37.210445 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_42/Add:0 shape: (4, 19, 19, 384)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:37.223562 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:37.213752 140151494817600 api.py:452] block_43 drop_connect_rate: 0.15636363636363637
+I0304 11:04:37.224199 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_42/Add:0 shape: (4, 19, 19, 384)
+I0304 11:04:37.224291 140151494817600 efficientnet_model.py:348] Block input depth: 384 output depth: 384
+I0304 11:04:37.646364 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_43/fs_Swish/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:37.769532 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_43/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:37.885838 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 2304)
+I0304 11:04:38.004411 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_43/Add:0 shape: (4, 19, 19, 384)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:38.018204 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:38.007720 140151494817600 api.py:452] block_44 drop_connect_rate: 0.16000000000000003
+I0304 11:04:38.018872 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_43/Add:0 shape: (4, 19, 19, 384)
+I0304 11:04:38.018974 140151494817600 efficientnet_model.py:348] Block input depth: 384 output depth: 384
+I0304 11:04:38.141802 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_44/fs_Swish/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:38.264197 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_44/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:38.381616 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 2304)
+I0304 11:04:38.501735 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_44/Add:0 shape: (4, 19, 19, 384)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:38.515289 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:38.504909 140151494817600 api.py:452] block_45 drop_connect_rate: 0.16363636363636366
+I0304 11:04:38.516014 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_44/Add:0 shape: (4, 19, 19, 384)
+I0304 11:04:38.516123 140151494817600 efficientnet_model.py:348] Block input depth: 384 output depth: 384
+I0304 11:04:38.639197 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_45/fs_Swish/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:38.762229 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_45/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:38.879530 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 2304)
+I0304 11:04:38.999375 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_45/Add:0 shape: (4, 19, 19, 384)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:39.013072 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:39.002660 140151494817600 api.py:452] block_46 drop_connect_rate: 0.16727272727272727
+I0304 11:04:39.013728 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_45/Add:0 shape: (4, 19, 19, 384)
+I0304 11:04:39.013829 140151494817600 efficientnet_model.py:348] Block input depth: 384 output depth: 384
+I0304 11:04:39.136545 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_46/fs_Swish/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:39.256630 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_46/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:39.368951 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 2304)
+I0304 11:04:39.482938 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_46/Add:0 shape: (4, 19, 19, 384)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:39.496313 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:39.486165 140151494817600 api.py:452] block_47 drop_connect_rate: 0.1709090909090909
+I0304 11:04:39.496942 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_46/Add:0 shape: (4, 19, 19, 384)
+I0304 11:04:39.497036 140151494817600 efficientnet_model.py:348] Block input depth: 384 output depth: 384
+I0304 11:04:39.615436 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_47/fs_Swish/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:39.732988 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_47/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:39.843518 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 2304)
+I0304 11:04:39.957159 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_47/Add:0 shape: (4, 19, 19, 384)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:39.970231 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:39.960362 140151494817600 api.py:452] block_48 drop_connect_rate: 0.17454545454545456
+I0304 11:04:39.970946 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_47/Add:0 shape: (4, 19, 19, 384)
+I0304 11:04:39.971037 140151494817600 efficientnet_model.py:348] Block input depth: 384 output depth: 384
+I0304 11:04:40.085679 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_48/fs_Swish/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:40.201351 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_48/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:40.315249 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 2304)
+I0304 11:04:40.433313 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_48/Add:0 shape: (4, 19, 19, 384)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:40.446506 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:40.436550 140151494817600 api.py:452] block_49 drop_connect_rate: 0.1781818181818182
+I0304 11:04:40.447096 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_48/Add:0 shape: (4, 19, 19, 384)
+I0304 11:04:40.447186 140151494817600 efficientnet_model.py:348] Block input depth: 384 output depth: 384
+I0304 11:04:40.564580 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_49/fs_Swish/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:40.679434 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_49/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:40.797894 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 2304)
+I0304 11:04:40.912914 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_49/Add:0 shape: (4, 19, 19, 384)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:40.929244 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:40.916380 140151494817600 api.py:452] block_50 drop_connect_rate: 0.18181818181818182
+I0304 11:04:40.929944 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_49/Add:0 shape: (4, 19, 19, 384)
+I0304 11:04:40.930044 140151494817600 efficientnet_model.py:348] Block input depth: 384 output depth: 384
+I0304 11:04:41.044857 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_50/fs_Swish/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:41.161037 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_50/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:41.271299 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 2304)
+I0304 11:04:41.385703 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_50/Add:0 shape: (4, 19, 19, 384)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:41.399130 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:41.388910 140151494817600 api.py:452] block_51 drop_connect_rate: 0.18545454545454546
+I0304 11:04:41.399823 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_50/Add:0 shape: (4, 19, 19, 384)
+I0304 11:04:41.399918 140151494817600 efficientnet_model.py:348] Block input depth: 384 output depth: 640
+I0304 11:04:41.517385 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_51/fs_Swish/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:41.637041 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_51/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 2304)
+I0304 11:04:41.753084 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 2304)
+I0304 11:04:41.871613 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_51/Identity:0 shape: (4, 19, 19, 640)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:41.885158 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:41.874822 140151494817600 api.py:452] block_52 drop_connect_rate: 0.1890909090909091
+I0304 11:04:41.885843 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_51/Identity:0 shape: (4, 19, 19, 640)
+I0304 11:04:41.885944 140151494817600 efficientnet_model.py:348] Block input depth: 640 output depth: 640
+I0304 11:04:42.007804 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_52/fs_Swish/while/Exit:0 shape: (4, 19, 19, 3840)
+I0304 11:04:42.129927 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_52/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 3840)
+I0304 11:04:42.261425 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 3840)
+I0304 11:04:42.384183 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_52/Add:0 shape: (4, 19, 19, 640)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:42.397886 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:42.387432 140151494817600 api.py:452] block_53 drop_connect_rate: 0.19272727272727275
+I0304 11:04:42.398553 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_52/Add:0 shape: (4, 19, 19, 640)
+I0304 11:04:42.398651 140151494817600 efficientnet_model.py:348] Block input depth: 640 output depth: 640
+I0304 11:04:42.521258 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_53/fs_Swish/while/Exit:0 shape: (4, 19, 19, 3840)
+I0304 11:04:42.644583 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_53/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 3840)
+I0304 11:04:42.761192 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 3840)
+I0304 11:04:42.881164 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_53/Add:0 shape: (4, 19, 19, 640)
+WARNING:tensorflow:Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+W0304 11:04:42.895213 140151494817600 ag_logging.py:145] Entity <bound method PythonHandler.emit of <PythonHandler <stderr> (NOTSET)>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: The global keyword is not yet supported.
+I0304 11:04:42.884264 140151494817600 api.py:452] block_54 drop_connect_rate: 0.19636363636363638
+I0304 11:04:42.895889 140151494817600 efficientnet_model.py:345] Block input: efficientnet-b7/model/blocks_53/Add:0 shape: (4, 19, 19, 640)
+I0304 11:04:42.895998 140151494817600 efficientnet_model.py:348] Block input depth: 640 output depth: 640
+I0304 11:04:43.018249 140151494817600 efficientnet_model.py:386] Expand: efficientnet-b7/model/blocks_54/fs_Swish/while/Exit:0 shape: (4, 19, 19, 3840)
+I0304 11:04:43.506402 140151494817600 efficientnet_model.py:389] DWConv: efficientnet-b7/model/blocks_54/fs_Swish_1/while/Exit:0 shape: (4, 19, 19, 3840)
+I0304 11:04:43.620342 140151494817600 efficientnet_model.py:330] Built Squeeze and Excitation with tensor shape: (4, 1, 1, 3840)
+I0304 11:04:43.733780 140151494817600 efficientnet_model.py:411] Project: efficientnet-b7/model/blocks_54/Add:0 shape: (4, 19, 19, 640)
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/efficientnet_model.py:100: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+W0304 11:04:43.858999 140151494817600 deprecation_wrapper.py:119] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/efficientnet_model.py:100: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:398: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+W0304 11:04:44.121025 140151494817600 deprecation_wrapper.py:119] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:398: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:408: The name tf.train.get_global_step is deprecated. Please use tf.compat.v1.train.get_global_step instead.
+
+W0304 11:04:44.624970 140151494817600 deprecation_wrapper.py:119] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:408: The name tf.train.get_global_step is deprecated. Please use tf.compat.v1.train.get_global_step instead.
+
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:516: The name tf.metrics.accuracy is deprecated. Please use tf.compat.v1.metrics.accuracy instead.
+
+W0304 11:04:44.635004 140151494817600 deprecation_wrapper.py:119] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:516: The name tf.metrics.accuracy is deprecated. Please use tf.compat.v1.metrics.accuracy instead.
+
+WARNING:tensorflow:From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:518: The name tf.metrics.mean is deprecated. Please use tf.compat.v1.metrics.mean instead.
+
+W0304 11:04:44.652295 140151494817600 deprecation_wrapper.py:119] From /calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py:518: The name tf.metrics.mean is deprecated. Please use tf.compat.v1.metrics.mean instead.
+
+I0304 11:04:44.692367 140151494817600 main.py:529] number of trainable parameters: 66347960
+INFO:tensorflow:Done calling model_fn.
+I0304 11:04:44.692829 140151494817600 estimator.py:1147] Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-04T11:04:44Z
+I0304 11:04:44.713131 140151494817600 evaluation.py:255] Starting evaluation at 2020-03-04T11:04:44Z
+INFO:tensorflow:Graph was finalized.
+I0304 11:04:47.019736 140151494817600 monitored_session.py:240] Graph was finalized.
+2020-03-04 11:04:47.022392: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:02:00.0
+2020-03-04 11:04:47.022499: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-04 11:04:47.022518: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-04 11:04:47.022532: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-04 11:04:47.022552: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-04 11:04:47.022566: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-04 11:04:47.022579: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-04 11:04:47.022595: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-04 11:04:47.024371: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-04 11:04:47.024416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-04 11:04:47.024424: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-04 11:04:47.024430: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-04 11:04:47.026245: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15216 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:02:00.0, compute capability: 6.0)
+WARNING:tensorflow:From /home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+W0304 11:04:47.029075 140151494817600 deprecation.py:323] From /home/stoeckl/.local/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+INFO:tensorflow:Restoring parameters from /calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug/efficientnet-b7
+I0304 11:04:47.031598 140151494817600 saver.py:1280] Restoring parameters from /calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug/efficientnet-b7
+2020-03-04 11:04:55.832348: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+INFO:tensorflow:Running local_init_op.
+I0304 11:04:55.997269 140151494817600 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0304 11:04:56.155534 140151494817600 session_manager.py:502] Done running local_init_op.
+2020-03-04 11:05:26.009126: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-04 11:05:26.422805: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+INFO:tensorflow:Evaluation [1250/12500]
+I0304 12:17:04.930904 140151494817600 evaluation.py:167] Evaluation [1250/12500]
+INFO:tensorflow:Evaluation [2500/12500]
+I0304 13:28:40.345281 140151494817600 evaluation.py:167] Evaluation [2500/12500]
+INFO:tensorflow:Evaluation [3750/12500]
+I0304 14:40:15.694942 140151494817600 evaluation.py:167] Evaluation [3750/12500]
+INFO:tensorflow:Evaluation [5000/12500]
+I0304 15:51:51.367442 140151494817600 evaluation.py:167] Evaluation [5000/12500]
+INFO:tensorflow:Evaluation [6250/12500]
+I0304 17:03:26.564076 140151494817600 evaluation.py:167] Evaluation [6250/12500]
+INFO:tensorflow:Evaluation [7500/12500]
+I0304 18:15:01.655463 140151494817600 evaluation.py:167] Evaluation [7500/12500]
+INFO:tensorflow:Evaluation [8750/12500]
+I0304 19:26:36.470983 140151494817600 evaluation.py:167] Evaluation [8750/12500]
+INFO:tensorflow:Evaluation [10000/12500]
+I0304 20:38:11.426292 140151494817600 evaluation.py:167] Evaluation [10000/12500]
+INFO:tensorflow:Evaluation [11250/12500]
+I0304 21:49:46.348023 140151494817600 evaluation.py:167] Evaluation [11250/12500]
+INFO:tensorflow:Evaluation [12500/12500]
+I0304 23:01:21.246578 140151494817600 evaluation.py:167] Evaluation [12500/12500]
+INFO:tensorflow:Finished evaluation at 2020-03-04-23:01:21
+I0304 23:01:21.647940 140151494817600 evaluation.py:275] Finished evaluation at 2020-03-04-23:01:21
+INFO:tensorflow:Saving dict for global step 0: global_step = 0, loss = 1.9509073, top_5_accuracy = 0.96808
+I0304 23:01:21.648478 140151494817600 estimator.py:2039] Saving dict for global step 0: global_step = 0, loss = 1.9509073, top_5_accuracy = 0.96808
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 0: /calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug/efficientnet-b7
+I0304 23:01:25.682072 140151494817600 estimator.py:2099] Saving 'checkpoint_path' summary for global step 0: /calc/stoeckl/binary_populations/checkpoints/efficientnet/official/efficientnet-b7-randaug/efficientnet-b7
+I0304 23:01:25.682763 140151494817600 main.py:744] Eval results: {'loss': 1.9509073, 'top_5_accuracy': 0.96808, 'global_step': 0}. Elapsed seconds: 43033
+Traceback (most recent call last):
+  File "/calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py", line 827, in <module>
+    app.run(main)
+  File "/home/stoeckl/.local/lib/python3.7/site-packages/absl/app.py", line 299, in run
+    _run_main(main, args)
+  File "/home/stoeckl/.local/lib/python3.7/site-packages/absl/app.py", line 250, in _run_main
+    sys.exit(main(argv))
+  File "/calc/stoeckl/binary_populations/tf_models/tpu/models/official/efficientnet/main.py", line 745, in main
+    utils.archive_ckpt(eval_results, eval_results['top_1_accuracy'], ckpt)
+KeyError: 'top_1_accuracy'
