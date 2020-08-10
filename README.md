@@ -63,9 +63,9 @@ The accuary of the ResNet50 model consisting of FS-neurons can be reproduced usi
 ```bash
 ./test_resnet_cifar_acc.sh
 ```
-Expected output: `INFO:tensorflow:...  accuracy = 0.925, accuracy_top_5 = 0.9959, global_step = 114085, loss = 0.5251896 
+Expected output: `INFO:tensorflow:...  accuracy = 0.925, accuracy_top_5 = 0.9959, global_step = 114085, loss = 0.5251896`
 
-Expected runtime:` 42 seconds
+Expected runtime: 42 seconds
 
 To test the ResNet50 model on ImageNet use the following command:
 ```bash
