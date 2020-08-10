@@ -7,7 +7,7 @@ Fs-neurons are compatible with TensorFlow 2.2.
 Take a look at the demo.py file to see how to use FS-neurons. 
 
 To train an FS-neuron to approximate a new function please modify 
-and use the find_coeffs.py file. 
+and use the `find_coeffs.py` file. 
 Note: This file requires TensorFlow 1.14!
 
 
@@ -57,13 +57,31 @@ Expected output:
 Expected time:
 
 
+### Verifying the number of neurons in the models.
+In order to compute the average number of spikes, it is important to know the exact number of 
+FS-neurons in the model. 
+
+This number can be computed for the ResNet50 models using the command:
+```bash
+./test_resnet_cifar_n_neurons.sh
+```
+for obatining the number of FS-neurons used on the Cifar10 dataset and:
+```bash
+./test_resnet_imagenet_n_neurons.sh
+```
+for the number of FS-neurons used on the ImageNet dataset. 
+
+The same can be done for the EfficientNet-B7 model:
+
+```bash
+./test_effnet_n_neurons.sh
+```
+
+
+
 ### Reproducing the average number of spikes
-To compute the number of spikes, first open the file `fs_coding.py` and 
-change the value of the variable `print_spikes` in line 10 from `False` to `True`. 
-It is advisable to change this value back to `False` after completing the average spike count tests.
 
-
-Then, run the following scripts to compute the average number of spikes per neuron. 
+Run the following scripts to compute the average number of spikes per neuron. 
 
 
 ```bash
@@ -87,3 +105,41 @@ A new model can be trained using the command:
 ```bash
 ./train_resnet_imagenet.sh
 ```
+
+
+### Training the smaller ResNet versions on Cifar10
+
+To train the smaller versions of the ResNet on the Cifar10 dataset one 
+can simply modify and run the script located at:
+`tf_models/models/official/r1/resnet/run_cifar10.sh`.
+
+### Reproduce the Mean and Stddev of the average input to the FS-neuron
+
+The result for the EfficientNet-B7 can be reproduced using the command: 
+```bash
+./test_effnet_mean_stddev.sh
+```
+
+In a similar fashion, these results for the ResNet50 can be reproduced using the command: 
+```bash 
+./test_resnet_imagenet_mean_stddev.sh
+```
+
+
+## Finding FS-neuron parameters
+
+The parameters for the Swish and the sigmoid function can be found in the 
+`fs_weights.py` file, along with the ideal parameters for the ReLU function. 
+
+To approximate another activation function using FS-neurons it is necessary to find 
+the new internal parameters first. 
+
+The file `find_coeffs.py` can be used to find a new set of parameters. 
+By changing the value of the variable `y` in the script, new activation functions can be approximated. 
+It is also possible to add more importance to a certain region of the function, using the `imp` variable. 
+
+In some scenarios it might be advantageous to have quantized parameters, possibly due to hardware constraints. 
+
+In this case, the file `find_quantized_coeffs.py` can be used instead. 
+
+
