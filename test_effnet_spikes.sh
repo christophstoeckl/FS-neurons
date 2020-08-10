@@ -7,6 +7,8 @@
 export PYTHONPATH=$PWD/tf_models/tpu/models
 export PYTHONPATH=$PYTHONPATH:$PWD
 
+sed -i 's/print_spikes = False/print_spikes = True/g' fs_coding.py
+
 python3 tf_models/tpu/models/official/efficientnet/main.py \
 	--use_tpu=False \
 	--data_dir=datasets/imagenet \
@@ -23,3 +25,4 @@ python3 extract_spikes.py \
 	--n_images=50
 
 
+sed -i 's/print_spikes = False/print_spikes = False/g' fs_coding.py
