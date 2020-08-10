@@ -16,7 +16,7 @@ python3 tf_models/tpu/models/official/efficientnet/main.py \
 	--eval_batch_size=1 \
 	--mode=eval \
 	--model_dir=checkpoints/imagenet/effnet-b7 \
-	--num_eval_images=100 \
+	--num_eval_images=50 \
 	--use_fs 2> effnet_imagenet_mean_stddev.txt
 
 python3 extract_mean_stddev.py \

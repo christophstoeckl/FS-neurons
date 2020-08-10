@@ -7,6 +7,8 @@
 export PYTHONPATH=$PWD/tf_models/models
 export PYTHONPATH=$PYTHONPATH:$PWD
 
+sed -i 's/print_spikes = False/print_spikes = True/g' fs_coding.py
+
 # 32 train steps with batch size 32 each -> 1024 images
 python3 tf_models/models/official/r1/resnet/imagenet_main.py \
 	--eval_only \
@@ -23,3 +25,4 @@ python extract_spikes.py \
 	--n_images=1024
 
 
+sed -i 's/print_spikes = True/print_spikes = False/g' fs_coding.py

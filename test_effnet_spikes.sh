@@ -25,4 +25,4 @@ python3 extract_spikes.py \
 	--n_images=50
 
 
-sed -i 's/print_spikes = False/print_spikes = False/g' fs_coding.py
+sed -i 's/print_spikes = True/print_spikes = False/g' fs_coding.py
