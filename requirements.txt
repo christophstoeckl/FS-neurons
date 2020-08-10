@@ -1,0 +1,27 @@
+absl-py==0.9.0
+astor==0.8.0
+certifi==2020.6.20
+chardet==3.0.4
+gast==0.3.3
+google-pasta==0.2.0
+grpcio==1.27.2
+h5py @ file:///tmp/build/80754af9/h5py_1593454119955/work
+idna==2.10
+Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
+Keras-Preprocessing==1.1.0
+Markdown==3.1.1
+mkl-fft==1.1.0
+mkl-random==1.1.0
+mkl-service==2.3.0
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1596233707986/work
+protobuf==3.12.3
+requests==2.24.0
+scipy @ file:///tmp/build/80754af9/scipy_1592930510235/work
+six==1.15.0
+tensorboard==1.14.0
+tensorflow==1.14.0
+tensorflow-estimator==1.14.0
+termcolor==1.1.0
+urllib3==1.25.10
+Werkzeug==1.0.1
+wrapt==1.12.1
