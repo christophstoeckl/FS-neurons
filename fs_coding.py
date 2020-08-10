@@ -9,6 +9,7 @@ original_sigmoid = tf.nn.sigmoid
 
 print_spikes = False
 print_n_neurons = False
+print_mean_stddev = False
 n_neurons = 0
 
 
@@ -71,6 +72,8 @@ def fs(x: tf.Tensor, h, d, T, K, return_reg=False):
         global n_neurons
         n_neurons += np.prod(x.shape.as_list()[1:])
         print(f'Number of neurons: {n_neurons}')
+    if print_mean_stddev:
+        x = tf.Print(x, [tf.reduce_mean(x), tf.math.reduce_std(x)])
     v = tf.identity(x)
     z = tf.zeros_like(x)
     out = tf.zeros_like(x)

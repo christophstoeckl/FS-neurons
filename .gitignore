@@ -8,4 +8,5 @@ effnet_imagenet_spikes.txt
 */archive/*
 checkpoints/imagenet/effnet-b7/
 checkpoints/imagenet/*
-
+resnet_imagenet_mean_stddev.txt
+effnet_imagenet_mean_stddev.txt
