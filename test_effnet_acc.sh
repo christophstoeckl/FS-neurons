@@ -14,7 +14,7 @@ python3 tf_models/tpu/models/official/efficientnet/main.py \
 	--eval_batch_size=1 \
 	--mode=eval \
 	--model_dir=checkpoints/imagenet/effnet-b7 \
-	--num_eval_images=50 \
+	--num_eval_images=500 \
 	--use_fs
 
 

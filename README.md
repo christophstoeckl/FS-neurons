@@ -8,7 +8,7 @@ Take a look at the demo.py file to see how to use FS-neurons.
 
 To train an FS-neuron to approximate a new function please modify 
 and use the `find_coeffs.py` file. 
-Note: This file requires TensorFlow 1.14!
+Note: This codebase requires TensorFlow 1.14!
 
 
 ## Reproduce the results
@@ -17,7 +17,13 @@ The implementations of the models (ResNets, EfficientNet) are from the
 official [tensorflow models repository](https://github.com/tensorflow/models). 
 
 ### Hardware requirements
+This software has been tested on a Quadro RTX 6000 GPU. 
 
+
+### Software requirements
+This software has been tested under Debian GNU/Linux bullseye/sid. 
+
+A list of software requirements can be found in the `requirements.txt` file.
 
 ### Preparing the data
 
@@ -46,29 +52,47 @@ The accuary of the ResNet50 model consisting of FS-neurons can be reproduced usi
 ```bash
 ./test_resnet_cifar_acc.sh
 ```
-Expected output:
-Expected time:
+Expected output: `INFO:tensorflow:...  accuracy = 0.925, accuracy_top_5 = 0.9959, global_step = 114085, loss = 0.5251896 
+Expected runtime:` 42 seconds
+
+To test the ResNet50 model on ImageNet use the following command:
+```bash
+./test_resnet_imagenet_acc.sh
+```
+Expected output: `INFO:tensorflow:...  accuracy = 0.7546875, accuracy_top_5 = 0.921875, global_step = 2642442, loss = 1.5057617
+
+Expected runtime: 1 min, 48 sec
+
 
 The accuacy of the EfficientNet can be reproduced using the command:
 ```bash
 ./test_effnet_acc.sh
 ```
-Expected output:
-Expected time:
+Expected output: `INFO:tensorflow:... loss = 1.9050122, top_1_accuracy = 0.844`
+Only 500 test images are evaluated, therefore the performance might vary slightly. 
+This number can be increased by modifying this script.
+
+Expected runtime: 8 min, 40 sec
 
 
 ### Verifying the number of neurons in the models.
 In order to compute the average number of spikes, it is important to know the exact number of 
 FS-neurons in the model. 
 
-This number can be computed for the ResNet50 models using the command:
+This number can be computed for the ResNet50 model on Cifar10 using the command:
 ```bash
 ./test_resnet_cifar_n_neurons.sh
 ```
-for obatining the number of FS-neurons used on the Cifar10 dataset and:
+Expected output: Number of neurons: 475136
+Expected runtime: 42 sec
+
+for obatining the number of FS-neurons used on the ImageNet dataset:
 ```bash
 ./test_resnet_imagenet_n_neurons.sh
 ```
+Expected output: Number of neurons: 9608704
+Expected runtime: 33 sec
+
 for the number of FS-neurons used on the ImageNet dataset. 
 
 The same can be done for the EfficientNet-B7 model:
@@ -76,8 +100,8 @@ The same can be done for the EfficientNet-B7 model:
 ```bash
 ./test_effnet_n_neurons.sh
 ```
-
-
+Expected output: Number of neurons: 259366992
+Expected runtime: 1 min 37 sec
 
 ### Reproducing the average number of spikes
 
@@ -88,14 +112,14 @@ Run the following scripts to compute the average number of spikes per neuron.
 ./test_resnet_cifar_spikes.sh
 ```
 Expected output:
-Expected time:
+Expected runtime:
 
 ```bash
 ./test_effnet_spikes.sh
 ```
 
 Expected output:
-Expected time:
+Expected runtime:
 
 ### Reproducing ResNet50 on ImageNet
 Unfortunately the checkpoint file for the ResNet50 on ImageNet is too large for github.
