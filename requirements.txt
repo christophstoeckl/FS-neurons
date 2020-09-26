@@ -19,7 +19,7 @@ requests==2.24.0
 scipy @ file:///tmp/build/80754af9/scipy_1592930510235/work
 six==1.15.0
 tensorboard==1.14.0
-tensorflow==1.14.0
+tensorflow==1.15.4
 tensorflow-estimator==1.14.0
 termcolor==1.1.0
 urllib3==1.25.10
