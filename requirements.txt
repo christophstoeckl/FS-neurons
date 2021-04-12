@@ -5,18 +5,18 @@ chardet==3.0.4
 gast==0.3.3
 google-pasta==0.2.0
 grpcio==1.27.2
-h5py @ file:///tmp/build/80754af9/h5py_1593454119955/work
+h5py==2.10.0
 idna==2.10
-Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
+Keras-Applications==1.1.2
 Keras-Preprocessing==1.1.0
 Markdown==3.1.1
 mkl-fft==1.1.0
 mkl-random==1.1.0
 mkl-service==2.3.0
-numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1596233707986/work
+numpy==1.16.6
 protobuf==3.12.3
 requests==2.24.0
-scipy @ file:///tmp/build/80754af9/scipy_1592930510235/work
+scipy==1.2.3
 six==1.15.0
 tensorboard==1.14.0
 tensorflow==1.14.0
